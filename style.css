@@ -1,0 +1,37 @@
+body {
+    display: grid;
+    grid-template-rows: 80px 400px 80px;
+    grid-template-columns: 100px 1fr 100px;
+    text-align: center;
+  }
+
+  header {
+    grid-row: 1;
+    grid-column: 1 / span 3;
+    background: lightblue;
+  }
+
+  .left {
+    grid-row: 2;
+    grid-column: 1;
+    background: royalblue;
+  }
+
+  .right {
+    grid-row: 2;
+    grid-column: 3;
+    background: royalblue;
+  }
+
+  main {
+    grid-row: 2;
+    grid-column: 2;
+    background: whitesmoke;
+  }
+
+  footer {
+    grid-row: 3;
+    grid-column: 1 / span 3;
+    background: lightblue;
+  }
+
